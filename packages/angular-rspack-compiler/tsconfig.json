@@ -2,7 +2,7 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "rootDir": "src",
-    "outDir": "../../dist",
+    "outDir": "../../dist/compiler",
     "allowSyntheticDefaultImports": true,
     "types": ["node"],
     "ignoreDeprecations": "6.0"
