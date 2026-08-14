@@ -3,6 +3,9 @@
   "description": "Rspack/Rsbuild plugin for Angular applications",
   "private": true,
   "type": "commonjs",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "build": ""
   },
