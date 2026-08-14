@@ -1,9 +1,0 @@
-{
-  "name": "group-09-sub-02",
-  "implicitDependencies": ["group-09"],
-  "targets": {
-    "build": {},
-    "copy": {},
-    "cat": {}
-  }
-}
