@@ -13,6 +13,7 @@
     "lib": ["ES2022"],
     "declaration": true,
     "resolveJsonModule": true,
+    "sourceMap": true,
     "strict": false,
     "allowJs": true,
     "composite": true,
@@ -20,5 +21,6 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "noUncheckedSideEffectImports": false
-  }
+  },
+  "exclude": ["packages/**/*.spec.ts", "dist", "node_modules"]
 }
